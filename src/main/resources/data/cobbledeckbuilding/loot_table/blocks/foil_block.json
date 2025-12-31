@@ -1,0 +1,21 @@
+{
+  "type": "mincraft:block",
+  "pools": [
+    {
+      "bonus_rolls": 0.0,
+      "condition": [
+        {
+          "condition": "minecraft:survives_explosion"
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cobbledeckbuilding:deck"
+        }
+      ],
+      "rolls": 1.0
+    }
+  ],
+  "random_sequence": "cobbledeckbuilding:blocks/foil_block"
+}

@@ -1,0 +1,14 @@
+{
+  "item.cobbledeckbuilding.deck": "Deck",
+  "item.cobbledeckbuilding.card": "Card",
+  "item.cobbledeckbuilding.foil": "Foil",
+  "item.cobbledeckbuilding.raw_foil": "Raw Foil",
+
+  "block.cobbledeckbuilding.foil_block": "Foil block",
+  "block.cobbledeckbuilding.foil_ore": "Foil Ore",
+  "block.cobbledeckbuilding.foil_deepslate_ore": "Foil Deepslate Ore",
+
+  "creativetab.cobbledeckbuilding.cobbledeck_items": "Foil Items",
+  "creativetab.cobbledeckbuilding.cobbledeck_blocks": "Foil Blocks"
+
+}
