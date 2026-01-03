@@ -1,6 +1,7 @@
 package com.galrosh.cobbledeckbuilding.block;
 
 import com.galrosh.cobbledeckbuilding.CobbleDeckBuilding;
+import com.galrosh.cobbledeckbuilding.block.custom.MagicBlock;
 import com.galrosh.cobbledeckbuilding.item.ModItems;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
@@ -31,6 +32,11 @@ public class ModBlocks {
     public static final DeferredBlock<Block> FOIL_DEEPSLATE_ORE = registerBlock("foil_deepslate_ore",
             () -> new DropExperienceBlock(UniformInt.of(2, 4),
                     BlockBehaviour.Properties.of().strength(3f).requiresCorrectToolForDrops().sound(SoundType.STONE)));
+
+    public static final DeferredBlock<Block> MAGIC_BLOCK = registerBlock("magic_block",
+            () -> new MagicBlock(BlockBehaviour.Properties.of().strength(2f).noLootTable()));
+
+    public static final
 
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {

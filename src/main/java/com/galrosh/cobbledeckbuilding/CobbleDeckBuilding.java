@@ -63,6 +63,7 @@ public class CobbleDeckBuilding {
         if(event.getTabKey() == CreativeModeTabs.BUILDING_BLOCKS){
             event.accept(ModBlocks.FOIL_BLOCK);
             event.accept(ModBlocks.FOIL_ORE);
+            event.accept(ModBlocks.MAGIC_BLOCK);
         }
     }
 

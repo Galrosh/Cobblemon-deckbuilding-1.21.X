@@ -23,7 +23,15 @@ public class ModCreativeModeTabs {
                     .displayItems((itemDisplayParameters, output) -> {
                       output.accept(ModItems.DECK);
                       output.accept(ModItems.CARD);
+
                       output.accept(ModItems.FOIL);
+                      output.accept(ModItems.RAW_FOIL);
+
+                      output.accept(ModItems.CHISEL);
+                      output.accept(ModItems.RADISH);
+
+                      output.accept(ModItems.FOILIUM);
+                      output.accept(ModItems.FOILIUM_GAS);
                     }).build());
 
     public static final Supplier<CreativeModeTab> COBBLEDECK_BLOCKS_TAB = CREATIVE_MODE_TAB.register("cobbledeck_blocks_tab",
@@ -34,6 +42,7 @@ public class ModCreativeModeTabs {
                       output.accept(ModBlocks.FOIL_ORE);
                       output.accept(ModBlocks.FOIL_BLOCK);
                       output.accept(ModBlocks.FOIL_DEEPSLATE_ORE);
+                      output.accept(ModBlocks.MAGIC_BLOCK);
 
                     }).build());
 

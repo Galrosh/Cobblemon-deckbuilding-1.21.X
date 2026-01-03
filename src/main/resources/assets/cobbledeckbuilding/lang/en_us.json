@@ -3,12 +3,25 @@
   "item.cobbledeckbuilding.card": "Card",
   "item.cobbledeckbuilding.foil": "Foil",
   "item.cobbledeckbuilding.raw_foil": "Raw Foil",
+  "item.cobbledeckbuilding.chisel": "Chisel",
+
+  "item.cobbledeckbuilding.radish": "Radish",
+
+  "item.cobbledeckbuilding.foilium": "Foilium",
+  "item.cobbledeckbuilding.foilium_gas": "Foilium Gas",
+
 
   "block.cobbledeckbuilding.foil_block": "Foil block",
   "block.cobbledeckbuilding.foil_ore": "Foil Ore",
   "block.cobbledeckbuilding.foil_deepslate_ore": "Foil Deepslate Ore",
 
+  "block.cobbledeckbuilding.magic_block": "Magic block",
+
+
   "creativetab.cobbledeckbuilding.cobbledeck_items": "Foil Items",
-  "creativetab.cobbledeckbuilding.cobbledeck_blocks": "Foil Blocks"
+  "creativetab.cobbledeckbuilding.cobbledeck_blocks": "Foil Blocks",
+
+  "tooltip.cobbledeckbuilding.magic_block.tooltip": "This block is §c§lMAGICAL§r"
+
 
 }
